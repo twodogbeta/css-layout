@@ -3,7 +3,7 @@ html {
     margin: 0;
     padding: 0;
     font-size: 18px;
-    font-family: "Helvetica Neue", serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5em;
 }
 
@@ -11,4 +11,82 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    background-color: black;
+    padding: 10px;
+}
+
+.header-img {
+    float: left;
+    background-color: white;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+}
+
+.header-title {
+    color: white;
+    float: left;
+    margin-left: 37%;
+}
+
+nav {
+    float: right;
+    padding: 20px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration-line: none;
+}
+
+nav a:hover {
+    text-decoration-line: underline;
+    text-decoration-color: white;
+}
+
+.description-img {
+    float: left;
+    width: 400px;
+    height: 450px;
+    padding: 0 15px 15px 0;
+}
+
+.description {
+    background-color: gainsboro;
+    padding: 130px 120px 80px 120px
+}
+
+.description-p2 {
+    clear: both;
+}
+
+.relationship-img {
+    float: right;
+}
+
+.relationship {
+    padding: 20px 120px 80px 120px;
+}
+
+.relationship-img {
+    float: right;
+    width: 400px;
+    height: 450px;
+    padding: 0 0 15px 15px;
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+    padding: 25px 0 25px 0;
 }
